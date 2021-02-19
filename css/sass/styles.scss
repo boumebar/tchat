@@ -1,0 +1,61 @@
+@import "libs/reset.scss";
+
+body{
+    text-align: center;
+    font-size: 1.4rem;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    margin: 70px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pseudo {
+    font-weight: bold;
+    color: rgb(0, 65, 119);
+  }
+
+input, button {
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
+form{
+    margin: 20px auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.messages{
+    text-align: left;
+    background-color: steelblue;
+    border-radius: 5px;
+    padding: 1em;
+    height: 50vh;
+    overflow: auto;
+}
+.message {
+    color: white;
+    padding: 0.3em;
+  }
+.pseudo{
+    text-transform: capitalize;
+}
+
+input {
+margin-right: 10px;
+}
+#pseudo {
+width: 20%;
+}
+
+#message {
+width: 60%;
+}
+
+button[type="submit"]{
+width: 20%;
+}
